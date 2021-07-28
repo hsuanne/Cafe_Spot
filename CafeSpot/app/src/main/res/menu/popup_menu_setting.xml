@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/pop_edit"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="修改個人資料"/>
+
+    <item android:id="@+id/pop_logout"
+        android:icon="@drawable/ic_baseline_comment_24"
+        android:title="登出"/>
+</menu>

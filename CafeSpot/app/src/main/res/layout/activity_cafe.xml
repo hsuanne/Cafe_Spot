@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cafe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cafepage.CafeActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/cafe_imageview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="220dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/image_placeholder"-->
+<!--        />-->
+<RelativeLayout
+    android:id="@+id/cafe_relative"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/cafe_img_viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/dots_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/cafe_img_viewpager2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:gravity="center_vertical|center_horizontal"-->
+<!--        android:orientation="horizontal"/>-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/cafe_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/black"
+        android:background="@drawable/rectangle_brown_border"
+        app:layout_constraintTop_toBottomOf="@id/cafe_relative"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cafe_viewpager2"
+        app:layout_constraintTop_toBottomOf="@id/cafe_tablayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

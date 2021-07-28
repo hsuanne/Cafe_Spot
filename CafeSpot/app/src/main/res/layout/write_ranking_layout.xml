@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ranking_layout"
+    android:layout_width="365dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/write_ranking_icon"
+        android:layout_marginTop="8dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_emoji_food_beverage_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/write_ranking_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@id/write_ranking_icon"
+        app:layout_constraintTop_toTopOf="@id/write_ranking_icon"
+        app:layout_constraintBottom_toBottomOf="@id/write_ranking_icon"/>
+
+    <RatingBar
+        android:id="@+id/write_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+
+        android:numStars="5"
+        android:stepSize="1"
+        android:theme="@style/RatingBar"
+        android:isIndicator="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/write_ranking_title"
+        app:layout_constraintBottom_toBottomOf="@id/write_ranking_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

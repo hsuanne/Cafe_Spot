@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CafeSpot</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">密碼</string>
+    <string name="prompt_username">用戶名稱</string>
+    <string name="action_sign_in">信箱登入</string>
+    <string name="action_register">註冊</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="google_signIn">Google 登入</string>
+    <string name="server_client_id">"267282535689-vht6bdjnlhjo245stkp6iavl6iebf0kb.apps.googleusercontent.com"</string>
+    <string name="login_email">登入 Cafe Spot 帳號</string>
+    <string name="register_email">信箱註冊</string>
+    <string name="login_with_account">已有 Cafe Spot 帳號，前往登入</string>
+    <string name="string_placeholder_long">SOME INTERESTING COMMENT aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="recommend">附近熱門推薦</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="average_ranking">平均星數: %.1f</string>
+    <string name="ranking_count">總計評分: %1$d 則</string>
+    <string name="comment_count">總計評論: %1$d 則</string>
+    <string name="write_comment">撰寫您的評論</string>
+    <string name="write_rating">撰寫您的評分</string>
+    <string name="comment_hint">說些什麼吧~</string>
+    <string name="comment_button">我要評論</string>
+    <string name="rating_button">我要評分</string>
+    <string name="publish">發布</string>
+    <string name="cancel">取消</string>
+    <string name="content_description_cafe_img">店家照片</string>
+    <string name="content_description_user_img">用戶照片</string>
+    <string name="transportation">交通方式</string>
+    <string name="other_info">其他資訊</string>
+    <string name="mrt">捷運站: </string>
+    <string name="bus">公車站: </string>
+    <string name="longsit">是否能久坐: </string>
+    <string name="meal">是否有餐點: </string>
+    <string name="dessert">是否有甜點: </string>
+    <string name="custom">自訂條件篩選</string>
+    <string name="search">搜尋</string>
+    <string name="upload_profile_img">上傳頭像</string>
+    <string name="edit_profile_img">點擊修改</string>
+    <string name="hint_username">輸入使用者名稱</string>
+    <string name="save_edit">儲存變更</string>
+    <string name="comment_times">評論次數</string>
+    <string name="rating_times">評分次數</string>
+    <string name="next_page">換一批</string>
+    <string name="custom_short">篩選條件</string>
+
+    <string-array name="levels">
+        <item>不限</item>
+        <item>4星以上</item>
+        <item>3星以上</item>
+        <item>2星以上</item>
+    </string-array>
+</resources>

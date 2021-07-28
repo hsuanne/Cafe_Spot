@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".googleMap.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:id="@+id/map_constraint"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:elevation="10dp"-->
+    <!--        android:background="@drawable/white_border"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/ic_magnify"-->
+    <!--            android:layout_width="30dp"-->
+    <!--            android:layout_height="30dp"-->
+    <!--            android:layout_marginStart="10dp"-->
+    <!--            android:src="@drawable/ic_baseline_search_24"-->
+    <!--            app:layout_constraintStart_toStartOf="@id/map_constraint"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/map_constraint"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/map_constraint" />-->
+
+    <!--        <EditText-->
+    <!--            android:layout_width="330dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/ic_magnify"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/map_constraint"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/map_constraint"-->
+    <!--            android:textSize="15sp"-->
+    <!--            android:layout_marginStart="10dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:id="@+id/searchbar"-->
+    <!--            android:background="@null"-->
+    <!--            android:hint="Enter Address, City or Zip Code"-->
+    <!--            android:imeOptions="actionSearch"/>-->
+
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</FrameLayout>
